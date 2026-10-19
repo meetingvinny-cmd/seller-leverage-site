@@ -1,4 +1,4 @@
-:root{--ink:#16201c;--muted:#5a6661;--bg:#fbfbf8;--line:#dfe3dd;--accent:#0b6e4f;--accent-ink:#fff;--soft:#eef4f0}
+:root{--ink:#1F2A44;--muted:#5a6661;--bg:#F7F5F0;--line:#dfe3dd;--accent:#2F7D6B;--accent-ink:#fff;--soft:#eef4f0}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
@@ -44,3 +44,11 @@ legend{font-weight:600;padding:0 4px}
 .foot{border-top:1px solid var(--line);margin-top:40px;padding:18px 0;color:var(--muted);font-size:14px}
 .foot p{margin:4px 0}
 @media(min-width:720px){h1{font-size:38px}.cards{grid-template-columns:repeat(3,1fr)}}
+img{max-width:100%;height:auto;display:block;border-radius:10px}
+.logo{width:28px;height:28px;border-radius:6px;display:inline-block;vertical-align:middle;margin-right:8px}
+.icon{width:56px;height:56px;border-radius:8px;float:left;margin:0 12px 6px 0}
+.steps.ico{list-style:none;padding:0}
+.steps.ico li{overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px}
+.hero img{margin-top:18px}
+.brand,nav a{white-space:nowrap}
+@media(max-width:400px){nav{gap:10px;font-size:14px}.btn-sm{padding:6px 10px}}

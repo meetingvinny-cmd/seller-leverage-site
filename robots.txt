@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /welcome/
+Disallow: /thanks/
+Disallow: /thanks-not-yet/
